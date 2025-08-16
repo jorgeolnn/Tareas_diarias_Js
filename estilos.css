@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Variables de colores para realizar llamado */
+
+:root {
+  --color-fondo: #f71616;
+  --color-texto: #ffffff;
+  --color-principal: #2710f0;
+  --color-principal-hover: #16A34A;
+  --color-éxito: #22C55E;
+  --color-importante: #F97316;
+  --color-urgente: #DC2626;
+  --color-gradiente: #7f0ac3;
+  --color-gradeinte2: #e34df7;
+  --icon-hover: #631a6f;
+}
+
+
+body{
+    background: linear-gradient(to bottom, var(--color-fondo), var(--color-principal));
+    height: 100vh;/*  Para que el graadiente sea completo en toda la pantalla */
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Perfil */
+
+.perfil h1{
+
+    color: var(--color-texto);
+}
+
+
+.perfil span{
+    color: var(--color-texto);
+    letter-spacing: 6px;
+
+}
+
+
+#fecha{
+
+    color: var(--color-texto);
+    padding: 50px 0 5px;
+
+}
+
+/* Agregar objetivo o tarea */
+
+.agregar_tarea{
+
+    background-color: var(--color-texto);
+    border-radius: 15px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    gap: 70px;
+    margin: 30px 0;
+}
+
+
+.agregar_tarea input{
+
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--color-texto);
+}
+
+
+.agregar_tarea i{
+    font-size: 50px;
+    color: var(--color-fondo);
+
+}
+
+.agregar_tarea i:hover{
+
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.agregar_tarea input::placeholder{
+    font-size: 1.1rem;
+    color: var(--color-fondo);
+}
+
+.container{
+    max-width: 77%;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+/* Sección de los objetivos */
+
+.seccion_meta h3{
+
+    color: var(--color-texto);
+    margin-bottom: 20px;
+}
+
+
+.seccion_meta li{
+
+    display: flex;
+    background: linear-gradient(to bottom, var(--color-gradiente), var(--color-gradeinte2));  
+    border-radius: 15px;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 0;
+    color: var(--color-texto);
+}
+
+
+.seccion_meta i{
+
+    font-size: 25px;
+
+}
+
+.seccion_meta i:hover{
+
+   color: var(--icon-hover);
+   cursor: pointer;
+
+}
+
+
+.subrayado{
+    text-decoration: line-through;
+    color: var(--color-texto);
+}
+
+
+.seccion_meta > ul p{
+
+    font-size: 1.2rem;
+}
