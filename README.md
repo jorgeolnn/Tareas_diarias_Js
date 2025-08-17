@@ -47,4 +47,4 @@ Para probar la aplicación en tu computador:
 ## 👨‍💻 Autor
 
 Desarrollado por **Jorge Lagunas Aqueveque**✨  
-Proyecto realizado por mí, adaptando y mejorando un tutorial de YouTube para agregar funcionalidad extra, estilo propio y mejores prácticas en JavaScript y CSS.
+Una pequeña app para mantener tus objetivos diarios organizados de manera simple y visual.
